@@ -1,11 +1,12 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
+
 import paymentRoutes from "./Routes/payment.js";
 
 dotenv.config();
-console.log(process.env.KEY_ID);
-console.log(process.env.KEY_SECRET);
+// console.log(process.env.KEY_ID);
+// console.log(process.env.KEY_SECRET);
 const PORT = 8080;
 
 const app = express();
